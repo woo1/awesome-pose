@@ -1,4 +1,4 @@
-# Latest models, sites for pose estimation
+# Models, sites for pose estimation
 * 개인적으로 pose 관련 자료를 찾을 때마다 업데이트하고 있습니다.
 
 ## 3d Pose estimation (3d mesh)
