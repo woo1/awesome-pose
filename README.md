@@ -4,7 +4,7 @@
 ## 3d Pose estimation (3d mesh)
 * DensePose : [[paper]](https://arxiv.org/abs/1802.00434),[[code]](https://github.com/facebookresearch/detectron2/tree/master/projects/DensePose)
 * frankmocap(3d body+hand motion capture) : [[paper]](https://arxiv.org/abs/2008.08324),[[code]](https://github.com/facebookresearch/frankmocap),[[skeleton info]](https://github.com/facebookresearch/frankmocap/blob/master/docs/joint_order.md)
-* I2L-MeshNet : [[code]](https://github.com/mks0601/I2L-MeshNet_RELEASE)
+* I2L-MeshNet : [[paper]](https://arxiv.org/abs/2008.03713),[[code]](https://github.com/mks0601/I2L-MeshNet_RELEASE)
 
 ## 3d Pose estimation (3d skeleton)
 * VideoPose3D : [[paper]](https://arxiv.org/abs/1811.11742),[[code]](https://github.com/facebookresearch/VideoPose3D)
