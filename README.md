@@ -8,7 +8,7 @@
 
 ## 3d Pose estimation (3d skeleton)
 * VideoPose3D : [[paper]](https://arxiv.org/abs/1811.11742),[[code]](https://github.com/facebookresearch/VideoPose3D)
-* ColorHandPose3D : [[paper]](https://arxiv.org/abs/2008.03713),[[code]](https://github.com/lmb-freiburg/hand3d)
+* ColorHandPose3D : [[code]](https://github.com/lmb-freiburg/hand3d)
 
 ## dataset
 * Human Foot Keypoint Dataset(2d) : [[url]](https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/),[[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose_train)
