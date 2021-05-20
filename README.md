@@ -1,5 +1,5 @@
 # awesome-pose
-# curated list for pose estimation
+* curated list for pose estimation
 
 ## 3d Pose estimation (3d mesh)
 * DensePose : [[paper]](https://arxiv.org/abs/1802.00434)[[code]](https://github.com/facebookresearch/detectron2/tree/master/projects/DensePose)
