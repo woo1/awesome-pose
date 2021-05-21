@@ -13,6 +13,7 @@
 
 ## dataset
 * Human Foot Keypoint Dataset(2d) : [[url]](https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/)[[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose_train)
+* Coco Whole Body : Whole-Body Human Pose Estimation in the Wild(2020-07) [[paper]](https://arxiv.org/abs/2007.11858)[[code]](https://github.com/jin-s13/COCO-WholeBody)
 
 ## etc
 * PoseFix : Model-agnostic General Human Pose Refinement Network(2018-12) [[paper]](https://arxiv.org/abs/1812.03595)[[code]](https://github.com/mks0601/PoseFix_RELEASE)
