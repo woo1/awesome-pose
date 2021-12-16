@@ -22,7 +22,7 @@
  [[code]](https://github.com/lmb-freiburg/hand3d)
 
 ## 2d Pose estimation
-* TransPose: Keypoint Localization via Transformer(2020-12) [[paper]](https://arxiv.org/pdf/2012.14214.pdf) [[code]](https://github.com/yangsenius/TransPose) : Transformer 기반의 2D Pose Estimation (Openpose
+* TransPose: Keypoint Localization via Transformer(2020-12) [[paper]](https://arxiv.org/pdf/2012.14214.pdf) [[code]](https://github.com/yangsenius/TransPose) : Transformer 기반의 2D Pose Estimation (Openpose보다 성능 좋음)
 * OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation(2018-12) [[paper]](https://arxiv.org/abs/1812.08008) [[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 ## dataset
