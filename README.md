@@ -12,6 +12,10 @@
 * PARE: Part Attention Regressor for 3D Human Body Estimation (2021-04) [[paper]](https://arxiv.org/abs/2104.08527) [[code]](https://github.com/mkocabas/PARE) : 실데이터 확인 시 준수한 성능을 보입니다.
 * ROMP: Monocular, One-stage, Regression of Multiple 3D People (2020-08) [[paper]](https://arxiv.org/abs/2008.12272) [[code]](https://github.com/Arthur151/ROMP) : 실데이터 확인 시 준수한 성능을 보입니다.
 
+## Human Mesh Recovery + Texture
+* Texformer: 3D Human Texture Estimation from a Single Image with Transformers
+(2021-09) [[paper]](https://arxiv.org/abs/2109.02563) [[code]](https://github.com/xuxy09/Texformer)
+
 ## 3d Pose estimation (3d skeleton)
 * VideoPose3D : 3D human pose estimation in video with temporal convolutions and semi-supervised training(2018-11) [[paper]](https://arxiv.org/abs/1811.11742)[[code]](https://github.com/facebookresearch/VideoPose3D)
 * ColorHandPose3D : Learning to Estimate 3D Hand Pose from Single RGB Images(2017-05)
