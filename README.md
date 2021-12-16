@@ -21,6 +21,10 @@
 * ColorHandPose3D : Learning to Estimate 3D Hand Pose from Single RGB Images(2017-05)
  [[code]](https://github.com/lmb-freiburg/hand3d)
 
+## 2d Pose estimation
+* TransPose: Keypoint Localization via Transformer(2020-12) [[paper]](https://arxiv.org/pdf/2012.14214.pdf) [[code]](https://github.com/yangsenius/TransPose) : Transformer 기반의 2D Pose Estimation (Openpose
+* OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation(2018-12) [[paper]](https://arxiv.org/abs/1812.08008) [[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+
 ## dataset
 * Human Foot Keypoint Dataset(2d) : [[url]](https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/)[[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose_train)
 * Coco Whole Body : Whole-Body Human Pose Estimation in the Wild(2020-07) [[paper]](https://arxiv.org/abs/2007.11858)[[code]](https://github.com/jin-s13/COCO-WholeBody)
