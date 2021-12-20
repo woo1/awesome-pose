@@ -17,6 +17,7 @@
 ## Human Mesh Recovery + Texture
 * <b>2021/09</b> Texformer: 3D Human Texture Estimation from a Single Image with Transformers
  [[paper]](https://arxiv.org/abs/2109.02563) [[code]](https://github.com/xuxy09/Texformer)
+* <b>2021/12</b> ICON: Implicit Clothed humans Obtained from Normals [[paper]](https://arxiv.org/pdf/2112.09127.pdf) [[code]](https://github.com/YuliangXiu/ICON)
  
 
 ## 3d Pose estimation (3d skeleton)
