@@ -18,6 +18,7 @@
 * <b>2021/09</b> Texformer: 3D Human Texture Estimation from a Single Image with Transformers
  [[paper]](https://arxiv.org/abs/2109.02563) [[code]](https://github.com/xuxy09/Texformer)
 * <b>2021/12</b> ICON: Implicit Clothed humans Obtained from Normals [[paper]](https://arxiv.org/pdf/2112.09127.pdf) [[code]](https://github.com/YuliangXiu/ICON)
+* <b>2021/05</b> Animated 3D Human Avatars from a Single Image with GAN-based Texture Inference [[paper]](https://www.researchgate.net/profile/Zhong-Li-16/publication/348875382_Animated_3D_Human_Avatars_from_a_Single_Image_with_GAN-based_Texture_Inference/links/60a692cb299bf1031f06f4c9/Animated-3D-Human-Avatars-from-a-Single-Image-with-GAN-based-Texture-Inference.pdf) : 단일 이미지에서 GAN을 이용해 Texture를 만들도록 하는 논문
  
 
 ## 3d Pose estimation (3d skeleton)
