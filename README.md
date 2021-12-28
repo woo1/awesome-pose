@@ -22,7 +22,7 @@
 
 ## SMPL Clothes
 * <b>2021/03</b> SMPLicit: Topology-aware Generative Model for Clothed People
- [[paper]](https://arxiv.org/pdf/2103.06871.pdf) [[code]](https://github.com/enriccorona/SMPLicit)
+ [[paper]](https://arxiv.org/pdf/2103.06871.pdf) [[code]](https://github.com/enriccorona/SMPLicit) : 기존 SMPL 모델의 top에 clothes layer를 얹어서 만든 모델로 기존 SMPL과 별개의 모델 파일이 따로 있음. pifuHD, tex2Shape에 비해 더 정교한 옷의 질감 표현 가능. image에 fitting하는 코드([[fit_SMPLicit]](https://github.com/enriccorona/SMPLicit/tree/main/fit_SMPLicit))가 Repo 내에 별도로 존재함.
 
 ## 3d Pose estimation (3d skeleton)
 * <b>2017/05</b> ColorHandPose3D : Learning to Estimate 3D Hand Pose from Single RGB Images
