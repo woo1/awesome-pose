@@ -12,7 +12,9 @@
 * <b>2021/10</b> Learning to Regress Bodies from Images using Differentiable Semantic Rendering
  [[code]](https://github.com/saidwivedi/DSR) [[paper]](https://arxiv.org/abs/2110.03480)
 * <b>2021/11</b> Out-of-Domain Human Mesh Reconstruction via Dynamic Bilevel Online Adaptation 
-[[paper]](https://arxiv.org/abs/2111.04017) [[code]](https://github.com/syguan96/dynaboa) [[project]](https://sites.google.com/view/dynaboa) : 2021/12 기준 3DPW SOTA, unsupervised online adaption 기반의 모델이라는 점에서 개념적으로 좋지만, 해당 도메인에 대한 skeleton 데이터가 항상 필요하고, 해당 데이터로 학습 진행 후 추론하는 느낌입니다. 실데이터로 확인 시 결과가 좋지 않고, 시간이 너무 오래걸립니다.
+[[paper]](https://arxiv.org/abs/2111.04017) [[code]](https://github.com/syguan96/dynaboa) [[project]](https://sites.google.com/view/dynaboa)
+> - 2021/12 기준 3DPW SOTA, unsupervised online adaption 기반의 모델이라는 점에서 개념적으로 좋지만, 해당 도메인에 대한 skeleton 데이터가 항상 필요하고, 해당 데이터로 학습 진행 후 추론하는 느낌입니다.
+> - 실데이터로 확인 시 결과가 좋지 않고, 시간이 너무 오래걸립니다.
 * <b>2020/10</b> Invariant Representation Learning for Infant Pose Estimation with Small Data
  [[paper]](https://arxiv.org/abs/2010.06100) [[code]](https://github.com/ostadabbas/Infant-Pose-Estimation)
 
