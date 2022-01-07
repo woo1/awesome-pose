@@ -32,6 +32,8 @@
 > - [[Self-Correction-Human-Parsing]](https://github.com/PeikeLi/Self-Correction-Human-Parsing)(Cloth segmentation 이용 시 lip 데이터셋,팔레트 제거한 데이터로 이용 가능)
  > - cloth segmentation, human instance segmenatation, smpl prediction 3개 모델 결과 취합 후 이미지 1장 fitting 시 4분 정도 시간 소요
  > - 논문 이미지처럼 색상있는 출력값 만드려면 mode를 rendering하는 함수 호출 시 rgb로 변경 필요
+* <b>2020/04</b> BCNet: Learning Body and Cloth Shape from A
+Single Image [[paper]](https://github.com/jby1993/BCNet) [[code]](https://github.com/jby1993/BCNet)
 
 ## 3d Pose estimation (3d skeleton)
 * <b>2017/05</b> ColorHandPose3D : Learning to Estimate 3D Hand Pose from Single RGB Images
