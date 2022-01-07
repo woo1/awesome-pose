@@ -34,6 +34,9 @@
  > - 논문 이미지처럼 색상있는 출력값 만드려면 mode를 rendering하는 함수 호출 시 rgb로 변경 필요
 * <b>2020/04</b> BCNet: Learning Body and Cloth Shape from A
 Single Image [[paper]](https://github.com/jby1993/BCNet) [[code]](https://github.com/jby1993/BCNet)
+> - ResNet 기반 모델로 feature 추출해서 garments(옷), smpl params(beta, pose, trans) 추출하는 레이어로 연결해서 처리함
+> - garment classification : 위의 feature를 이용해서 상의의 경우 FC Layer로 2개(반팔, 긴팔), 하의의 경우 4개(바지, 짧은바지, 치마, 짧은치마)로 분류하도록 한다.
+> 
 
 ## 3d Pose estimation (3d skeleton)
 * <b>2017/05</b> ColorHandPose3D : Learning to Estimate 3D Hand Pose from Single RGB Images
