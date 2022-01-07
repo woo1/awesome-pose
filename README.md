@@ -36,7 +36,7 @@
 Single Image [[paper]](https://github.com/jby1993/BCNet) [[code]](https://github.com/jby1993/BCNet)
 > - ResNet 기반 모델로 feature 추출해서 garments(옷), smpl params(beta, pose, trans) 추출하는 레이어로 연결해서 처리함
 > - garment classification : 위의 feature를 이용해서 상의의 경우 FC Layer로 2개(반팔, 긴팔), 하의의 경우 4개(바지, 짧은바지, 치마, 짧은치마)로 분류하도록 한다.
-> 
+> - 옷 부분의 vertices를 만들 때는 SMPL Parameter인 Beta, Pose와 α(상세 의류별 PCA 계수값), D(다양한 포즈 / 옷과 몸의 다양한 상호작용에 따른 Variation을 capture하기 위한 변수)를 사용
 
 ## 3d Pose estimation (3d skeleton)
 * <b>2017/05</b> ColorHandPose3D : Learning to Estimate 3D Hand Pose from Single RGB Images
