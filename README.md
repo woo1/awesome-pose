@@ -4,8 +4,11 @@
 
 ## Multi-View - Human Pose Estimation, Human Mesh Recovery
 * <b>2021/11</b> Direct Multi-view Multi-person 3D Human Pose Estimation [[paper]](https://arxiv.org/pdf/2111.04076.pdf) [[code]](https://github.com/sail-sg/mvp)
-* <b>2022/01</b> AirPose: Multi-View Fusion Network for Aerial 3D Human Pose and Shape Estimation [[paper]](https://arxiv.org/pdf/2201.08093.pdf) [[code]](https://github.com/robot-perception-group/AirPose) : 외부적으로 보정되지 않은 여러 대의 비행 카메라로 캡처한 이미지를 사용하여 사람의 자세와 모양을 추정하는 방법(AirPose), SMPL-X 사용, 더 좋은 mocap 품질이 필요한 오프라인 애플리케이션을 위한 최적화 기반의 후처리 방법(AirPose+) 제안
-* <b>WACV 2021</b> 3D Human Pose and Shape Estimation Through Collaborative Learning and Multi-view Model-fitting [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Li_3D_Human_Pose_and_Shape_Estimation_Through_Collaborative_Learning_and_WACV_2021_paper.pdf) [[code]](https://github.com/leezhongguo/MVSPIN_NEW) : Multi-View 기반의 회귀 학습 루프를 이용해서 3D human pose, shape estimation. 먼저 CNN으로 multi-view 이미지에서 각각 SMPL shape, pose를 회귀한 뒤, 그 값들을 초기값으로 활용하여 multi-view 이미지에 동시에 최적화되도록 하는 방법.
+* <b>2022/01</b> AirPose: Multi-View Fusion Network for Aerial 3D Human Pose and Shape Estimation [[paper]](https://arxiv.org/pdf/2201.08093.pdf) [[code]](https://github.com/robot-perception-group/AirPose)
+> - 외부적으로 보정되지 않은 여러 대의 비행 카메라로 캡처한 이미지를 사용하여 사람의 자세와 모양을 추정하는 방법(AirPose), SMPL-X 사용, 더 좋은 mocap 품질이 필요한 오프라인 애플리케이션을 위한 최적화 기반의 후처리 방법(AirPose+) 제안
+* <b>WACV 2021</b> 3D Human Pose and Shape Estimation Through Collaborative Learning and Multi-view Model-fitting [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Li_3D_Human_Pose_and_Shape_Estimation_Through_Collaborative_Learning_and_WACV_2021_paper.pdf) [[code]](https://github.com/leezhongguo/MVSPIN_NEW)
+> - Multi-View 기반의 회귀 학습 루프를 이용해서 3D human pose, shape estimation. 
+> - 먼저 CNN으로 multi-view 이미지에서 각각 SMPL shape, pose를 회귀한 뒤, 그 값들을 초기값으로 활용하여 multi-view 이미지에 동시에 최적화되도록 하는 방법.
 * <b>2021/10</b> Dynamic Multi-Person Mesh Recovery From Uncalibrated Multi-View Cameras [[paper]](https://arxiv.org/pdf/2110.10355.pdf) [[code]](https://github.com/boycehbz/DMMR)
 > - 보정되지 않은 Multi-View 카메라(카메라 매개변수가 알려지지 않은 상태)를 이용한 Dynamic(움직이는 동작) 여러 사람들의 Mesh 복원 방법(물리적 일관성을 이용해서 해결). 
 > - Encoder-Decoder 네트워크를 사용하고, Encoder와 Decoder 내부에는 GRU 사용함.
