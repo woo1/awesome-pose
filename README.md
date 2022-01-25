@@ -6,8 +6,12 @@
 * <b>2021/11</b> Direct Multi-view Multi-person 3D Human Pose Estimation [[paper]](https://arxiv.org/pdf/2111.04076.pdf) [[code]](https://github.com/sail-sg/mvp)
 * <b>2022/01</b> AirPose: Multi-View Fusion Network for Aerial 3D Human Pose and Shape Estimation [[paper]](https://arxiv.org/pdf/2201.08093.pdf) [[code]](https://github.com/robot-perception-group/AirPose) : 외부적으로 보정되지 않은 여러 대의 비행 카메라로 캡처한 이미지를 사용하여 사람의 자세와 모양을 추정하는 방법(AirPose), SMPL-X 사용, 더 좋은 mocap 품질이 필요한 오프라인 애플리케이션을 위한 최적화 기반의 후처리 방법(AirPose+) 제안
 * <b>WACV 2021</b> 3D Human Pose and Shape Estimation Through Collaborative Learning and Multi-view Model-fitting [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Li_3D_Human_Pose_and_Shape_Estimation_Through_Collaborative_Learning_and_WACV_2021_paper.pdf) [[code]](https://github.com/leezhongguo/MVSPIN_NEW) : Multi-View 기반의 회귀 학습 루프를 이용해서 3D human pose, shape estimation. 먼저 CNN으로 multi-view 이미지에서 각각 SMPL shape, pose를 회귀한 뒤, 그 값들을 초기값으로 활용하여 multi-view 이미지에 동시에 최적화되도록 하는 방법.
-* <b>2021/10</b> Dynamic Multi-Person Mesh Recovery From Uncalibrated Multi-View Cameras [[paper]](https://arxiv.org/pdf/2110.10355.pdf) [[code]](https://github.com/boycehbz/DMMR) : 보정되지 않은 Multi-View 카메라(카메라 매개변수가 알려지지 않은 상태)를 이용한 Dynamic(움직이는 동작) 여러 사람들의 Mesh 복원 방법(물리적 일관성을 이용해서 해결). Encoder-Decoder 네트워크, Encoder와 Decoder 내부에는 GRU 사용 
-* <b>2021/06</b> Part-aware Measurement for Robust Multi-View Multi-Human 3D Pose Estimation and Tracking [[paper]](https://arxiv.org/pdf/2106.11589.pdf) [[code]](https://github.com/B10532021/Part-Aware_Measurement_for_3D_Pose_Estimation_and_Tracking) : Multi-View 기반의 카메라 상황에서 Object Detection(YOLOv3)을 통해 사람만 추출한 뒤, 2D Pose Estimation(HRNet) 처리, 그 후 시간적 일관성(temporal correspondences)을 이용해서 모든 뷰에서 동일한 3D pose로 나오도록 최적화 작업 진행. 구체적으로 2D-3D 연관을 위한 Part-Aware(부분 인식) 측정과 재구성 과정에서 2D Outlier(이상치)에 대처할 수 있는 필터를 제안함. (목적은 3D Human Pose Estimation)
+* <b>2021/10</b> Dynamic Multi-Person Mesh Recovery From Uncalibrated Multi-View Cameras [[paper]](https://arxiv.org/pdf/2110.10355.pdf) [[code]](https://github.com/boycehbz/DMMR)
+> - 보정되지 않은 Multi-View 카메라(카메라 매개변수가 알려지지 않은 상태)를 이용한 Dynamic(움직이는 동작) 여러 사람들의 Mesh 복원 방법(물리적 일관성을 이용해서 해결). 
+> - Encoder-Decoder 네트워크를 사용하고, Encoder와 Decoder 내부에는 GRU 사용함.
+* <b>2021/06</b> Part-aware Measurement for Robust Multi-View Multi-Human 3D Pose Estimation and Tracking [[paper]](https://arxiv.org/pdf/2106.11589.pdf) [[code]](https://github.com/B10532021/Part-Aware_Measurement_for_3D_Pose_Estimation_and_Tracking)
+> - Multi-View 기반의 카메라 상황에서 Object Detection(YOLOv3)을 통해 사람만 추출한 뒤, 2D Pose Estimation(HRNet) 처리, 그 후 시간적 일관성(temporal correspondences)을 이용해서 모든 뷰에서 동일한 3D pose로 나오도록 최적화 작업 진행
+> - 구체적으로 2D-3D 연관을 위한 Part-Aware(부분 인식) 측정과 재구성 과정에서 2D Outlier(이상치)에 대처할 수 있는 필터를 제안함. (목적은 3D Human Pose Estimation)
 
 ## Human Mesh Recovery
 * comment : 3DPW 데이터셋에서 정확도가 높은 모델들은 거의가 이미지 기반이라 중간에 튀는 경우가 다소 있습니다. 영상 기반 모델인 TCMR 같은 경우는 대체적으로 무난한 결과가 출력되지만 정확도가 아쉽습니다.
