@@ -42,7 +42,7 @@
 * <b>2021/05</b> Animated 3D Human Avatars from a Single Image with GAN-based Texture Inference [[paper]](https://www.researchgate.net/profile/Zhong-Li-16/publication/348875382_Animated_3D_Human_Avatars_from_a_Single_Image_with_GAN-based_Texture_Inference/links/60a692cb299bf1031f06f4c9/Animated-3D-Human-Avatars-from-a-Single-Image-with-GAN-based-Texture-Inference.pdf) : 단일 이미지에서 GAN을 이용해 Texture를 만들도록 하는 논문
 * <b>2022/01</b> HumanNeRF: Free-viewpoint Rendering of Moving People from Monocular Video [[paper]](https://arxiv.org/pdf/2201.04127.pdf) [[project]](https://grail.cs.washington.edu/projects/humannerf/) : Google Research에서 발표한 논문으로 monocular video를 input으로 받아서 free-viewpoint rendering(3D로 각도 제한 없이 볼 수 있도록)이 가능하도록 만든 논문
 
-## SMPL Clothes
+## Clothed Body Mesh
 * <b>2021/03</b> SMPLicit: Topology-aware Generative Model for Clothed People
  [[paper]](https://arxiv.org/pdf/2103.06871.pdf) [[code]](https://github.com/enriccorona/SMPLicit)
 > - 기존 SMPL 모델의 top에 clothes layer를 얹어서 만든 모델로 기존 SMPL과 별개의 모델 파일이 따로 있음. pifuHD, tex2Shape에 비해 더 정교한 옷의 질감 표현 가능 
