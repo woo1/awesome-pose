@@ -3,6 +3,11 @@
 * 3DPW models : https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw
 
 ## Multi-View - Human Pose Estimation, Human Mesh Recovery
+* <b>2019/09</b> Cross View Fusion for 3D Human Pose Estimation [[paper]](https://arxiv.org/pdf/1909.01203.pdf) [[code]](https://github.com/microsoft/multiview-human-pose-estimation-pytorch)
+> - Multi-View 이미지들을 CNN으로 각각 heatmap 추출한 뒤 fusion하여 각 view의 히트맵이 다른 뷰의 이점을 얻도록 함.
+> - Multi-View 2D pose에서 3D 포즈를 복구하도록 처리
+> - 여러 단계 프로세스를 통해 관절 위치를 재귀적으로 미세 조정
+> - 각 관절을 개별적으로 refine(수정)하는 게 아니라 공간적 관계를 고려하여 모든 관절을 동시에 refine함
 * <b>2021/11</b> Direct Multi-view Multi-person 3D Human Pose Estimation [[paper]](https://arxiv.org/pdf/2111.04076.pdf) [[code]](https://github.com/sail-sg/mvp)
 * <b>2022/01</b> AirPose: Multi-View Fusion Network for Aerial 3D Human Pose and Shape Estimation [[paper]](https://arxiv.org/pdf/2201.08093.pdf) [[code]](https://github.com/robot-perception-group/AirPose)
 > - 외부적으로 보정되지 않은 여러 대의 비행 카메라로 캡처한 이미지를 사용하여 사람의 자세와 모양을 추정하는 방법(AirPose), SMPL-X 사용, 더 좋은 mocap 품질이 필요한 오프라인 애플리케이션을 위한 최적화 기반의 후처리 방법(AirPose+) 제안
