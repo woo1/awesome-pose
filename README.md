@@ -15,6 +15,9 @@
 * <b>2021/06</b> Part-aware Measurement for Robust Multi-View Multi-Human 3D Pose Estimation and Tracking [[paper]](https://arxiv.org/pdf/2106.11589.pdf) [[code]](https://github.com/B10532021/Part-Aware_Measurement_for_3D_Pose_Estimation_and_Tracking)
 > - Multi-View 기반의 카메라 상황에서 Object Detection(YOLOv3)을 통해 사람만 추출한 뒤, 2D Pose Estimation(HRNet) 처리, 그 후 시간적 일관성(temporal correspondences)을 이용해서 모든 뷰에서 동일한 3D pose로 나오도록 최적화 작업 진행
 > - 구체적으로 2D-3D 연관을 위한 Part-Aware(부분 인식) 측정과 재구성 과정에서 2D Outlier(이상치)에 대처할 수 있는 필터를 제안함. (목적은 3D Human Pose Estimation)
+* <b>2021/04</b> Multi-View Multi-Person 3D Pose Estimation with Plane Sweep Stereo [[paper]](https://arxiv.org/pdf/2104.02273.pdf) [[code]](https://github.com/jiahaoLjh/PlaneSweepPose)
+> - 동기화(synchronized)되고 보정된(calibrated) 상태의 multi-view 카메라 사용
+> - 각 카메라 뷰에 대해 독립적으로 HRNet 모델을 이용한 2D Pose 추정 진행, 그 후 multi reference view에서 2D pose 감지를 활용하여 target camera view 아래에 있는 Joints 2D 후보에 대해 depth 회귀(regression)를 수행함
 
 ## Human Mesh Recovery
 * comment : 3DPW 데이터셋에서 정확도가 높은 모델들은 거의가 이미지 기반이라 중간에 튀는 경우가 다소 있습니다. 영상 기반 모델인 TCMR 같은 경우는 대체적으로 무난한 결과가 출력되지만 정확도가 아쉽습니다.
