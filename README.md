@@ -45,6 +45,7 @@
 > - NeRF 및 SMPL parameter 공동 최적화
 > - A Pose Sequence(한바퀴 도는 영상, A포즈로)로 학습해서 그 사람의 옷, shape 다 따서 다른 자세로 변형 가능하도록 함
 > <img src="https://github.com/woo1/awesome-pose/blob/main/fig8_2106.png?raw=true">
+> - 한계점 : 최상의 결과를 얻으려면 수행자가 천천히 몸을 돌리고 간단한 포즈(A-Pose)를 취하면서 옷이 고품질 렌더링을 위해 몸에 거의 고정되도록 해야한다. 한 장면에 대해서만 학습된 모든 NeRF 기
 
 ## Human Mesh Recovery + Texture
 * <b>2021/09</b> Texformer: 3D Human Texture Estimation from a Single Image with Transformers
