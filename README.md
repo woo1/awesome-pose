@@ -43,7 +43,7 @@
  [[paper]](https://arxiv.org/abs/2010.06100) [[code]](https://github.com/ostadabbas/Infant-Pose-Estimation)
 * <b>2021/06</b> Animatable Neural Radiance Fields from Monocular RGB Videos [[paper]](https://arxiv.org/pdf/2106.13629.pdf) [[code]](https://github.com/JanaldoChen/Anim-NeRF)
 > - NeRF 및 SMPL parameter 공동 최적화
-> - A Pose Sequence(한바퀴 도는 영상, A포즈로)만 있으면 그 사람의 옷, shape 다 따서 다른 자세로 변형 가능하도록 함
+> - A Pose Sequence(한바퀴 도는 영상, A포즈로)로 학습해서 그 사람의 옷, shape 다 따서 다른 자세로 변형 가능하도록 함
 > <img src="https://github.com/woo1/awesome-pose/blob/main/fig8_2106.png?raw=true">
 
 ## Human Mesh Recovery + Texture
