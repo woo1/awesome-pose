@@ -43,9 +43,12 @@
  [[paper]](https://arxiv.org/abs/2010.06100) [[code]](https://github.com/ostadabbas/Infant-Pose-Estimation)
 * <b>2021/06</b> Animatable Neural Radiance Fields from Monocular RGB Videos [[paper]](https://arxiv.org/pdf/2106.13629.pdf) [[code]](https://github.com/JanaldoChen/Anim-NeRF)
 > - NeRF 및 SMPL parameter 공동 최적화
+> - Animatable neural radiance fields (animatable NeRF), F : 3D position(x,y,z), shape 𝛽, pose 𝜃를 color c =(r,g,b) 와 density σ로 매핑함
+> <img src="https://github.com/woo1/awesome-pose/blob/main/anim_nerf_eq1.png?raw=true">
+> - 위의 식에서 D(x, 𝜃, 𝛽)는 다른 프레임들간의 사람 움직임들을 다루기 위해, 관찰 영역 내의 3D position x = (x,y,z)를 표준 영역(canonical space)의 x_0 = (x0, y0, z0)로 변형한다. NeRF의 시점(view) 의존성은 철이나 유리에 비춘 것과 같은 거울 반사를 주로 다룬다. 하지만 사람의 피부와 옷들은 분산되어 있기 때문에(매우 다양해서 그런 것 같습니다), 이 논문에서는 시점 방향(viewing direction)을 제거한다. 
 > - A Pose Sequence(한바퀴 도는 영상, A포즈로)로 학습해서 그 사람의 옷, shape 다 따서 다른 자세로 변형 가능하도록 함
 > <img src="https://github.com/woo1/awesome-pose/blob/main/fig8_2106.png?raw=true">
-> - 한계점 : 최상의 결과를 얻으려면 수행자가 천천히 몸을 돌리고 간단한 포즈(A-Pose)를 취하면서 옷이 고품질 렌더링을 위해 몸에 거의 고정되도록 해야한다. 한 장면에 대해서만 학습된 모든 NeRF 기
+> - 한계점 : 최상의 결과를 얻으려면 수행자가 천천히 몸을 돌리고 간단한 포즈(A-Pose)를 취하면서 옷이 고품질 렌더링을 위해 몸에 거의 고정되도록 해야한다. 한 장면에 대해서만 학습된 모든 NeRF 기반의 방법들과 마찬가지로 보이지 않는 부분(허벅지 안쪽, 겨드랑이 등)은 재구성
 
 ## Human Mesh Recovery + Texture
 * <b>2021/09</b> Texformer: 3D Human Texture Estimation from a Single Image with Transformers
