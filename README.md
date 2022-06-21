@@ -50,6 +50,9 @@
 > - ![Figure8](./fig8_2106.png)
 > - 한계점 : 최상의 결과를 얻으려면 수행자가 천천히 몸을 돌리고 간단한 포즈(A-Pose)를 취하면서 옷이 고품질 렌더링을 위해 몸에 거의 고정되도록 해야한다. 
 > - 한 장면에 학습된 모든 NeRF기반 방법들과 마찬가지로 보이지 않는 부분은 재구성이 어려워서 input video에 최대한 뷰가 담겨있어야함.
+* <b>2022</b> Accurate 3D Body Shape Regression using Metric and Semantic Attributes [[paper]](https://ps.is.mpg.de/uploads_file/attachment/attachment/691/00928.pdf) [[code]](https://github.com/muelea/shapy)
+> - single image + 신체 속성 수치값(키, 몸무게, 가슴둘레, 허리둘레 등)을 모델 에이전시 데이터, 유명인 데이터를 활용해서 수집해서 학습에 이용함
+> - 좀 더 shape이 잘 나오도록 만든 모델
 
 
 ## Human Mesh Recovery + Texture
