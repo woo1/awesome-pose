@@ -92,4 +92,6 @@ Single Image [[paper]](https://github.com/jby1993/BCNet) [[code]](https://github
 ## etc
 * <b>2018/12</b> PoseFix : Model-agnostic General Human Pose Refinement Network [[paper]](https://arxiv.org/abs/1812.03595)[[code]](https://github.com/mks0601/PoseFix_RELEASE)
 * Bodyvisualizer(3d mesh by gender, height, weight, etc) : [[url]](https://bodyvisualizer.com/male.html)
+* OSSO: Obtaining Skeletal Shape from Outside (Mesh Skeleton visualization) - Mesh ply 파일 주어진 상태에서 skeleton 형태로 뽑아낸다 : [[paper]](https://download.is.tue.mpg.de/osso/OSSO.pdf)[[code]](https://github.com/MarilynKeller/OSSO)
+<img src="https://github.com/MarilynKeller/OSSO/raw/main/figures/skeleton_results.png" style="height:200px">
 
