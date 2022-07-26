@@ -54,7 +54,7 @@
 > - 좀 더 shape이 잘 나오도록 만든 모델
 * <b>2021</b> PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop [[paper]](https://arxiv.org/pdf/2207.06400v1.pdf) [[code]](https://github.com/HongwenZhang/PyMAF)
 > - 2021년 Body Mesh를 다뤘던 PyMAF에서 업그레이드해서 Full-Body를 다루는 PyMAF-X가 2022년 7월 논문 발표된 상태이고, 코드는 아직 업데이트가 되지 않은 것 같습니다.
-> - 3D Body Pose 계열 모든 모델이 실패하는, 관절이 뒤로 가는 동작 빼고는 거의 잘 됩니다. 폐색이 많은 사이드뷰 동작, 전면부 운동 영상
+> - 3D Body Pose 계열 모든 모델이 실패하는, 관절이 뒤로 가는 동작 빼고는 거의 잘 됩니다. 폐색이 많은 사이드뷰 동작, 전면부 운동 영상에서도 잘 추론됩니다. 
 
 
 ## Human Mesh Recovery + Texture
