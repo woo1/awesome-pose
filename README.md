@@ -27,7 +27,6 @@
 > - Temporal Transformer, Multi-View Transformer, NeRF (Clothed Body Mesh)
 
 ## Human Mesh Recovery
-* comment : 3DPW 데이터셋에서 정확도가 높은 모델들은 거의가 이미지 기반이라 중간에 튀는 경우가 다소 있습니다. 영상 기반 모델인 TCMR 같은 경우는 대체적으로 무난한 결과가 출력되지만 정확도가 아쉽습니다.
 * <b>2020/08</b> frankmocap(3d body+hand motion capture) : Fast Monocular 3D Hand and Body Motion Capture by Regression and Integration [[paper]](https://arxiv.org/abs/2008.08324)[[code]](https://github.com/facebookresearch/frankmocap)[[skeleton info]](https://github.com/facebookresearch/frankmocap/blob/master/docs/joint_order.md)
 * <b>2020/08</b> I2L-MeshNet : Image-to-Lixel Prediction Network for Accurate 3D Human Pose and Mesh Estimation from a Single RGB Image [[paper]](https://arxiv.org/abs/2008.03713)[[code]](https://github.com/mks0601/I2L-MeshNet_RELEASE)
 * <b>2020/08</b> ROMP: Monocular, One-stage, Regression of Multiple 3D People [[paper]](https://arxiv.org/abs/2008.12272) [[code]](https://github.com/Arthur151/ROMP) : 실데이터 확인 시 준수한 성능을 보입니다.
@@ -53,6 +52,9 @@
 * <b>2022</b> Accurate 3D Body Shape Regression using Metric and Semantic Attributes [[paper]](https://ps.is.mpg.de/uploads_file/attachment/attachment/691/00928.pdf) [[code]](https://github.com/muelea/shapy)
 > - single image + 신체 속성 수치값(키, 몸무게, 가슴둘레, 허리둘레 등)을 모델 에이전시 데이터, 유명인 데이터를 활용해서 수집해서 학습에 이용함
 > - 좀 더 shape이 잘 나오도록 만든 모델
+* <b>2021</b> PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop [[paper]](https://arxiv.org/pdf/2207.06400v1.pdf) [[code]](https://github.com/HongwenZhang/PyMAF)
+> - 2021년 Body Mesh를 다뤘던 PyMAF에서 업그레이드해서 Full-Body를 다루는 PyMAF-X가 2022년 나온 상태, 코드는 아직 업데이트가 되지 않은 것 같습니다.
+> - 3D Body Pose 계열 모든 모델이 실패하는, 관절이 뒤로 가는 동작 빼고는 거의 잘 됩니다. 폐색이 많은 사이드뷰 동작, 전면부 운동 영상
 
 
 ## Human Mesh Recovery + Texture
