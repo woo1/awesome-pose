@@ -86,6 +86,8 @@ Single Image [[paper]](https://github.com/jby1993/BCNet) [[code]](https://github
 ## 2d Pose estimation
 * <b>2018/12</b> OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation [[paper]](https://arxiv.org/abs/1812.08008) [[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 * <b>2020/12</b> TransPose: Keypoint Localization via Transformer [[paper]](https://arxiv.org/pdf/2012.14214.pdf) [[code]](https://github.com/yangsenius/TransPose) : Transformer 기반의 2D Pose Estimation (Openpose보다 성능 좋음)
+* <b>2022/04</b> YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss [[paper]](https://arxiv.org/pdf/2204.06806v1.pdf) [[code]](https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose)
+> - HigherHRNet, EfficientHRNet 보다 좋은 성능
 
 ## dataset
 * Human Foot Keypoint Dataset(2d) : [[url]](https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/)[[code]](https://github.com/CMU-Perceptual-Computing-Lab/openpose_train)
